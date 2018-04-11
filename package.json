@@ -1,24 +1,25 @@
 {
-
-"name": "foody",
-"version": "1.0.0",
-"description": "simple-todos",
-"main": "index.js",
-"engines": {
-"node": "8.9.1",
-"npm": "5.6.0"
-},
-"scripts": {
-"start": "node index.js",
-"server": "nodemon index.js",
-"dev": "concurrently \"mongod\" \"npm run server\""
-},
-"author": "",
-"license": "ISC",
-"dependencies": {
-"body-parser": "^1.18.2",
-"express": "^4.16.2",
-"mongoose": "^5.0.7",
-"nodemon": "^1.17.1"
-}
+  "name": "foody",
+  "version": "1.0.0",
+  "description": "simple-todos",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.1",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"mongod\" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.6",
+    "mongoose": "^5.0.7",
+    "nodemon": "^1.17.1"
+  }
 }
